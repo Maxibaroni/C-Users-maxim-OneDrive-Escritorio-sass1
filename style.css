@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5dac3;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 25px;
+}
+
+header {
+  background-image: url(https://thumbs.dreamstime.com/b/collage-muchas-im%C3%A1genes-del-caf%C3%A9-110454394.jpg);
+  background-size: contain;
+}
+header .btn {
+  background-color: #e5dac3;
+  border-color: #090909;
+  color: brown;
+}
+header .btn:hover {
+  background-color: #e5dac3;
+}
+
+.cafeteria {
+  width: 250px;
+}
+
+h1 {
+  border: #090909 2px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+h2 {
+  border: #090909 solid 2px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ambiente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #efca79;
+  text-align: center;
+}
+footer .fa-facebook-square {
+  font-size: 65px;
+  color: #090909;
+}
+footer .fa-instagram-square {
+  font-size: 65px;
+  color: #090909;
+}
+footer .fa-twitter {
+  font-size: 65px;
+  color: #090909;
+}
+
+/*# sourceMappingURL=style.css.map */
