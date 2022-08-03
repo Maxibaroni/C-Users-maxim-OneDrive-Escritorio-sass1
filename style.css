@@ -1,9 +1,3 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #e5dac3;
   font-family: "Edu NSW ACT Foundation", cursive;
@@ -21,6 +15,12 @@ header .btn {
 }
 header .btn:hover {
   background-color: #e5dac3;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .cafeteria {
@@ -63,6 +63,4 @@ footer .fa-instagram-square {
 footer .fa-twitter {
   font-size: 65px;
   color: #090909;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

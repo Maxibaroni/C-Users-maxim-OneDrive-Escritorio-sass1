@@ -1,0 +1,13 @@
+@import "variables";
+header{
+    background-image: url(https://thumbs.dreamstime.com/b/collage-muchas-im%C3%A1genes-del-caf%C3%A9-110454394.jpg);
+    background-size: contain;
+    .btn{
+    background-color:$color1;
+    border-color: $color2;
+    color: $color3;
+}
+.btn:hover{
+    background-color: $color1;
+}
+}

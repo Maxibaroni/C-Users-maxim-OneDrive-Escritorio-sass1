@@ -1,8 +1,4 @@
-$color1:#e5dac3;
-$color2:#090909;
-$color3:brown;
-$color4:#efca79;
-$font1:'Edu NSW ACT Foundation', cursive;
+@import "variables", "body", "header";
 *{
     padding: 0px;
     margin: 0px;
@@ -11,24 +7,7 @@ $font1:'Edu NSW ACT Foundation', cursive;
 
 
 
-body{
-    background-color: $color1;
-    font-family: $font1;
-    font-size: 25px;
-    
-}
-header{
-    background-image: url(https://thumbs.dreamstime.com/b/collage-muchas-im%C3%A1genes-del-caf%C3%A9-110454394.jpg);
-    background-size: contain;
-    .btn{
-    background-color:$color1;
-    border-color: $color2;
-    color: $color3;
-}
-.btn:hover{
-    background-color: $color1;
-}
-}
+
 
 
 .cafeteria{
@@ -41,16 +20,17 @@ h1{
 h2{
     border: $color2 solid 2px;
 }
-.intro{
+@mixin opcion1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.intro{
+    @include opcion1()
     
 }
 .ambiente{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include opcion1()
     
 }
 footer{
