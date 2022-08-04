@@ -1,4 +1,4 @@
-@import "variables", "body", "header";
+@import "variables", "body", "header", "footer";
 *{
     padding: 0px;
     margin: 0px;
@@ -33,24 +33,8 @@ h2{
     @include opcion1()
     
 }
-footer{
-    background-color:$color4;
-    
-    text-align: center;
-
-    .fa-facebook-square{
-    font-size: 65px;
-    color:$color2;
-}
-.fa-instagram-square{
-    font-size: 65px;
-    color: $color2;
-}
-.fa-twitter{
-    font-size: 65px;
-    color: $color2;
+.imagen{
+    width: 1900px;
+    height: 750px;
 }
 
-
-
-}

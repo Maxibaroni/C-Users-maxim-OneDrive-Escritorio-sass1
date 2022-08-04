@@ -17,6 +17,23 @@ header .btn:hover {
   background-color: #e5dac3;
 }
 
+footer {
+  background-color: #efca79;
+  text-align: center;
+}
+footer .fa-facebook-square {
+  font-size: 65px;
+  color: #090909;
+}
+footer .fa-instagram-square {
+  font-size: 65px;
+  color: #090909;
+}
+footer .fa-twitter {
+  font-size: 65px;
+  color: #090909;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -48,19 +65,7 @@ h2 {
   align-items: center;
 }
 
-footer {
-  background-color: #efca79;
-  text-align: center;
-}
-footer .fa-facebook-square {
-  font-size: 65px;
-  color: #090909;
-}
-footer .fa-instagram-square {
-  font-size: 65px;
-  color: #090909;
-}
-footer .fa-twitter {
-  font-size: 65px;
-  color: #090909;
+.imagen {
+  width: 1900px;
+  height: 750px;
 }/*# sourceMappingURL=style.css.map */
