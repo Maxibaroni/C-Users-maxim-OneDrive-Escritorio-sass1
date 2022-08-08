@@ -54,18 +54,35 @@ h2 {
 }
 
 .intro {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid black;
 }
 
 .ambiente {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid black;
 }
 
 .imagen {
-  width: 1900px;
+  width: 1500px;
+  height: 750px;
+}
+
+.postres {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.cafes {
+  width: 1500px;
   height: 750px;
 }/*# sourceMappingURL=style.css.map */
