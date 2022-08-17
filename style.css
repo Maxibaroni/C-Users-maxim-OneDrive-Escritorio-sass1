@@ -4,6 +4,7 @@ body {
   font-size: 25px;
 }
 
+
 header {
   background-image: url(https://thumbs.dreamstime.com/b/collage-muchas-im%C3%A1genes-del-caf%C3%A9-110454394.jpg);
   background-size: contain;
@@ -16,6 +17,7 @@ header .btn {
 header .btn:hover {
   background-color: #e5dac3;
 }
+
 
 footer {
   background-color: #efca79;
@@ -40,7 +42,7 @@ footer .fa-twitter {
   box-sizing: border-box;
 }
 
-.cafeteria {
+.logo__cafe {
   width: 250px;
 }
 
@@ -49,12 +51,14 @@ h1 {
   font-family: "Edu NSW ACT Foundation", cursive;
 }
 
-h2 {
+h2  {
   border: #090909 solid 2px;
+  margin: 6px;
 }
 
+
 .intro {
-  margin: 6.4rem;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,24 +66,22 @@ h2 {
 }
 
 .ambiente {
-  margin: 6.4rem;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 3px solid black;
 }
 
-.carousel {
-  width: 1200px;
-}
 
-.imagen {
-  width: 990px;
-  height: 750px;
+
+.cafeteria {
+  width: 20%;
+  
 }
 
 .postres {
-  margin: 6.4rem;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,11 +89,11 @@ h2 {
 }
 
 .cafes {
-  width: 990px;
+  width: 100%;
   height: 750px;
 }
 
 .crema {
-  width: 990px;
+  width: 100%;
   height: 750px;
 }/*# sourceMappingURL=style.css.map */
